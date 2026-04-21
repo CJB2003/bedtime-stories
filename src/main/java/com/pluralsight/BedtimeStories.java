@@ -4,10 +4,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class BedtimeStories {
+    //created scanner
     static Scanner myScanner = new Scanner(System.in);
     public static void main(String[] args) {
 
-        System.out.print("What story would you like to read? ");
+        //prompts the user for what story they want to read.
+        System.out.print("What story would you like to read? (Goldilocks, Hansel and Gretel, or Mary had a Little Lamb) ");
         String userInput = myScanner.nextLine();
 
         if (userInput.equalsIgnoreCase("Goldilocks")) {
