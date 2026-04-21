@@ -18,7 +18,7 @@ public class BedtimeStories {
                 int i = 1;
                 while ((currentLine = buffReader.readLine()) != null) {
 
-                    System.out.println(i + " " + currentLine);
+                    System.out.println(i + ". " + currentLine);
                     i++;
                 }
                 buffReader.close();
@@ -38,7 +38,7 @@ public class BedtimeStories {
                 int i = 1;
                 while ((currentLine = buffReader.readLine()) != null) {
 
-                    System.out.println(i + " " + currentLine);
+                    System.out.println(i + ". " + currentLine);
                     i++;
                 }
                 buffReader.close();
@@ -58,7 +58,7 @@ public class BedtimeStories {
                 int i = 1;
                 while ((currentLine = buffReader.readLine()) != null) {
 
-                    System.out.println(i + " " + currentLine);
+                    System.out.println(i + ". " + currentLine);
                     i++;
                 }
                 buffReader.close();
